@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cabinets>
+    <cabinets id="1">
+        <Name>I love my PET</Name>
+        <Address>Chisinau bul. Moscova 12</Address>
+        <Email>ilovemypet@gmail.com </Email>
+        <Phone>+373********</Phone>
+        <Cabinet_Doctors id="2">
+            <firstName>Sorina</firstName>
+            <lastName>Post ica</lastName>
+            <email>sorinapostica@gmail.com</email>
+            <phone>+373794*****</phone>
+        </Cabinet_Doctors>
+        <Cabinet_Doctors id="1">
+            <firstName>Ana</firstName>
+            <lastName>Mutates</lastName>
+            <email>anamusteata@gmail.com</email>
+            <phone>+373794*****</phone>
+        </Cabinet_Doctors>
+        <Cabinet_Services id="4">
+            <name>Consulting first time</name>
+            <price>0.0</price>
+        </Cabinet_Services>
+        <Cabinet_Services id="9">
+            <name>Consulting Monthly Subscription</name>
+            <price>10.0</price>
+        </Cabinet_Services>
+        <Cabinet_Services id="8">
+            <name>First Aid</name>
+            <price>0.0</price>
+        </Cabinet_Services>
+        <Cabinet_Services id="2">
+            <name>Consulting Year Subscription</name>
+            <price>5.0</price>
+        </Cabinet_Services>
+        <Cabinet_Services id="5">
+            <name>Medicine 2</name>
+            <price>10.0</price>
+        </Cabinet_Services>
+        <Cabinet_Services id="7">
+            <name>Medicine 3</name>
+            <price>15.0</price>
+        </Cabinet_Services>
+        <Cabinet_Services id="6">
+            <name>Aid Year Subscription</name>
+            <price>7.5</price>
+        </Cabinet_Services>
+        <Cabinet_Services id="1">
+            <name>Aid Monthly Subscription</name>
+            <price>15.0</price>
+        </Cabinet_Services>
+        <Cabinet_Services id="3">
+            <name>Medicine 1</name>
+            <price>5.0</price>
+        </Cabinet_Services>
+    </cabinets>
+</cabinets>

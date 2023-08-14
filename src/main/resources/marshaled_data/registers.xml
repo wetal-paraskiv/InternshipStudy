@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <registers>
     <registers id="1">
-        <date>07-07-2023 11:17:26</date>
+        <date>14-08-2023 12:08:55</date>
         <doctor>
             <email>anamusteata@gmail.com</email>
             <firstName>Ana</firstName>
-            <id>2</id>
+            <id>1</id>
             <lastName>Mutates</lastName>
             <phone>+373794*****</phone>
         </doctor>
@@ -29,17 +29,17 @@
             <phone>+373794*****</phone>
         </client>
         <vetService>
-            <id>9</id>
+            <id>4</id>
             <name>Consulting first time</name>
             <price>0.0</price>
         </vetService>
     </registers>
     <registers id="2">
-        <date>07-07-2023 11:17:26</date>
+        <date>14-08-2023 12:08:55</date>
         <doctor>
             <email>anamusteata@gmail.com</email>
             <firstName>Ana</firstName>
-            <id>2</id>
+            <id>1</id>
             <lastName>Mutates</lastName>
             <phone>+373794*****</phone>
         </doctor>
@@ -63,17 +63,17 @@
             <phone>+373794*****</phone>
         </client>
         <vetService>
-            <id>4</id>
+            <id>9</id>
             <name>Consulting Monthly Subscription</name>
             <price>10.0</price>
         </vetService>
     </registers>
     <registers id="3">
-        <date>07-07-2023 11:17:26</date>
+        <date>14-08-2023 12:08:55</date>
         <doctor>
             <email>anamusteata@gmail.com</email>
             <firstName>Ana</firstName>
-            <id>2</id>
+            <id>1</id>
             <lastName>Mutates</lastName>
             <phone>+373794*****</phone>
         </doctor>
@@ -97,17 +97,17 @@
             <phone>+373794*****</phone>
         </client>
         <vetService>
-            <id>5</id>
+            <id>2</id>
             <name>Consulting Year Subscription</name>
             <price>5.0</price>
         </vetService>
     </registers>
     <registers id="4">
-        <date>07-07-2023 11:17:26</date>
+        <date>14-08-2023 12:08:55</date>
         <doctor>
             <email>anamusteata@gmail.com</email>
             <firstName>Ana</firstName>
-            <id>2</id>
+            <id>1</id>
             <lastName>Mutates</lastName>
             <phone>+373794*****</phone>
         </doctor>
@@ -131,17 +131,17 @@
             <phone>+373794*****</phone>
         </client>
         <vetService>
-            <id>3</id>
+            <id>8</id>
             <name>First Aid</name>
             <price>0.0</price>
         </vetService>
     </registers>
     <registers id="5">
-        <date>07-07-2023 11:17:26</date>
+        <date>14-08-2023 12:08:55</date>
         <doctor>
             <email>anamusteata@gmail.com</email>
             <firstName>Ana</firstName>
-            <id>2</id>
+            <id>1</id>
             <lastName>Mutates</lastName>
             <phone>+373794*****</phone>
         </doctor>
@@ -165,17 +165,17 @@
             <phone>+373794*****</phone>
         </client>
         <vetService>
-            <id>2</id>
+            <id>1</id>
             <name>Aid Monthly Subscription</name>
             <price>15.0</price>
         </vetService>
     </registers>
     <registers id="6">
-        <date>07-07-2023 11:17:26</date>
+        <date>14-08-2023 12:08:55</date>
         <doctor>
             <email>sorinapostica@gmail.com</email>
             <firstName>Sorina</firstName>
-            <id>1</id>
+            <id>2</id>
             <lastName>Post ica</lastName>
             <phone>+373794*****</phone>
         </doctor>
@@ -199,17 +199,17 @@
             <phone>+373794*****</phone>
         </client>
         <vetService>
-            <id>1</id>
+            <id>6</id>
             <name>Aid Year Subscription</name>
             <price>7.5</price>
         </vetService>
     </registers>
     <registers id="7">
-        <date>07-07-2023 11:17:26</date>
+        <date>14-08-2023 12:08:55</date>
         <doctor>
             <email>sorinapostica@gmail.com</email>
             <firstName>Sorina</firstName>
-            <id>1</id>
+            <id>2</id>
             <lastName>Post ica</lastName>
             <phone>+373794*****</phone>
         </doctor>
@@ -233,17 +233,17 @@
             <phone>+373794*****</phone>
         </client>
         <vetService>
-            <id>8</id>
+            <id>3</id>
             <name>Medicine 1</name>
             <price>5.0</price>
         </vetService>
     </registers>
     <registers id="8">
-        <date>07-07-2023 11:17:26</date>
+        <date>14-08-2023 12:08:55</date>
         <doctor>
             <email>sorinapostica@gmail.com</email>
             <firstName>Sorina</firstName>
-            <id>1</id>
+            <id>2</id>
             <lastName>Post ica</lastName>
             <phone>+373794*****</phone>
         </doctor>
@@ -267,17 +267,17 @@
             <phone>+373794*****</phone>
         </client>
         <vetService>
-            <id>6</id>
+            <id>5</id>
             <name>Medicine 2</name>
             <price>10.0</price>
         </vetService>
     </registers>
     <registers id="9">
-        <date>07-07-2023 11:17:26</date>
+        <date>14-08-2023 12:08:55</date>
         <doctor>
             <email>sorinapostica@gmail.com</email>
             <firstName>Sorina</firstName>
-            <id>1</id>
+            <id>2</id>
             <lastName>Post ica</lastName>
             <phone>+373794*****</phone>
         </doctor>
@@ -307,11 +307,11 @@
         </vetService>
     </registers>
     <registers id="10">
-        <date>07-07-2023 11:17:26</date>
+        <date>14-08-2023 12:08:55</date>
         <doctor>
             <email>sorinapostica@gmail.com</email>
             <firstName>Sorina</firstName>
-            <id>1</id>
+            <id>2</id>
             <lastName>Post ica</lastName>
             <phone>+373794*****</phone>
         </doctor>
