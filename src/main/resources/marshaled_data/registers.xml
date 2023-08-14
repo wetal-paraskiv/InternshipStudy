@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<registers>
+    <registers id="1">
+        <date>07-07-2023 11:17:26</date>
+        <doctor>
+            <email>anamusteata@gmail.com</email>
+            <firstName>Ana</firstName>
+            <id>2</id>
+            <lastName>Mutates</lastName>
+            <phone>+373794*****</phone>
+        </doctor>
+        <pet>
+            <animalType>Dog</animalType>
+            <client>
+                <email>sorinradulescu@gmail.com</email>
+                <firstName>Sorin</firstName>
+                <id>1</id>
+                <lastName>RadScheduler</lastName>
+                <phone>+373794*****</phone>
+            </client>
+            <id>1</id>
+            <name>Jake</name>
+        </pet>
+        <client>
+            <email>sorinradulescu@gmail.com</email>
+            <firstName>Sorin</firstName>
+            <id>1</id>
+            <lastName>RadScheduler</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <vetService>
+            <id>9</id>
+            <name>Consulting first time</name>
+            <price>0.0</price>
+        </vetService>
+    </registers>
+    <registers id="2">
+        <date>07-07-2023 11:17:26</date>
+        <doctor>
+            <email>anamusteata@gmail.com</email>
+            <firstName>Ana</firstName>
+            <id>2</id>
+            <lastName>Mutates</lastName>
+            <phone>+373794*****</phone>
+        </doctor>
+        <pet>
+            <animalType>Parrot</animalType>
+            <client>
+                <email>apalachicola@gmail.com</email>
+                <firstName>Constanta</firstName>
+                <id>2</id>
+                <lastName>Apalachicola</lastName>
+                <phone>+373794*****</phone>
+            </client>
+            <id>3</id>
+            <name>Sky</name>
+        </pet>
+        <client>
+            <email>apalachicola@gmail.com</email>
+            <firstName>Constanta</firstName>
+            <id>2</id>
+            <lastName>Apalachicola</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <vetService>
+            <id>4</id>
+            <name>Consulting Monthly Subscription</name>
+            <price>10.0</price>
+        </vetService>
+    </registers>
+    <registers id="3">
+        <date>07-07-2023 11:17:26</date>
+        <doctor>
+            <email>anamusteata@gmail.com</email>
+            <firstName>Ana</firstName>
+            <id>2</id>
+            <lastName>Mutates</lastName>
+            <phone>+373794*****</phone>
+        </doctor>
+        <pet>
+            <animalType>Dog</animalType>
+            <client>
+                <email>sorinradulescu@gmail.com</email>
+                <firstName>Sorin</firstName>
+                <id>1</id>
+                <lastName>RadScheduler</lastName>
+                <phone>+373794*****</phone>
+            </client>
+            <id>1</id>
+            <name>Jake</name>
+        </pet>
+        <client>
+            <email>sorinradulescu@gmail.com</email>
+            <firstName>Sorin</firstName>
+            <id>1</id>
+            <lastName>RadScheduler</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <vetService>
+            <id>5</id>
+            <name>Consulting Year Subscription</name>
+            <price>5.0</price>
+        </vetService>
+    </registers>
+    <registers id="4">
+        <date>07-07-2023 11:17:26</date>
+        <doctor>
+            <email>anamusteata@gmail.com</email>
+            <firstName>Ana</firstName>
+            <id>2</id>
+            <lastName>Mutates</lastName>
+            <phone>+373794*****</phone>
+        </doctor>
+        <pet>
+            <animalType>Cat</animalType>
+            <client>
+                <email>sorinradulescu@gmail.com</email>
+                <firstName>Sorin</firstName>
+                <id>1</id>
+                <lastName>RadScheduler</lastName>
+                <phone>+373794*****</phone>
+            </client>
+            <id>2</id>
+            <name>Alta</name>
+        </pet>
+        <client>
+            <email>sorinradulescu@gmail.com</email>
+            <firstName>Sorin</firstName>
+            <id>1</id>
+            <lastName>RadScheduler</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <vetService>
+            <id>3</id>
+            <name>First Aid</name>
+            <price>0.0</price>
+        </vetService>
+    </registers>
+    <registers id="5">
+        <date>07-07-2023 11:17:26</date>
+        <doctor>
+            <email>anamusteata@gmail.com</email>
+            <firstName>Ana</firstName>
+            <id>2</id>
+            <lastName>Mutates</lastName>
+            <phone>+373794*****</phone>
+        </doctor>
+        <pet>
+            <animalType>Tiger</animalType>
+            <client>
+                <email>apalachicola@gmail.com</email>
+                <firstName>Constanta</firstName>
+                <id>2</id>
+                <lastName>Apalachicola</lastName>
+                <phone>+373794*****</phone>
+            </client>
+            <id>4</id>
+            <name>Kitty</name>
+        </pet>
+        <client>
+            <email>apalachicola@gmail.com</email>
+            <firstName>Constanta</firstName>
+            <id>2</id>
+            <lastName>Apalachicola</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <vetService>
+            <id>2</id>
+            <name>Aid Monthly Subscription</name>
+            <price>15.0</price>
+        </vetService>
+    </registers>
+    <registers id="6">
+        <date>07-07-2023 11:17:26</date>
+        <doctor>
+            <email>sorinapostica@gmail.com</email>
+            <firstName>Sorina</firstName>
+            <id>1</id>
+            <lastName>Post ica</lastName>
+            <phone>+373794*****</phone>
+        </doctor>
+        <pet>
+            <animalType>Dog</animalType>
+            <client>
+                <email>sorinradulescu@gmail.com</email>
+                <firstName>Sorin</firstName>
+                <id>1</id>
+                <lastName>RadScheduler</lastName>
+                <phone>+373794*****</phone>
+            </client>
+            <id>1</id>
+            <name>Jake</name>
+        </pet>
+        <client>
+            <email>sorinradulescu@gmail.com</email>
+            <firstName>Sorin</firstName>
+            <id>1</id>
+            <lastName>RadScheduler</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <vetService>
+            <id>1</id>
+            <name>Aid Year Subscription</name>
+            <price>7.5</price>
+        </vetService>
+    </registers>
+    <registers id="7">
+        <date>07-07-2023 11:17:26</date>
+        <doctor>
+            <email>sorinapostica@gmail.com</email>
+            <firstName>Sorina</firstName>
+            <id>1</id>
+            <lastName>Post ica</lastName>
+            <phone>+373794*****</phone>
+        </doctor>
+        <pet>
+            <animalType>Dog</animalType>
+            <client>
+                <email>sorinradulescu@gmail.com</email>
+                <firstName>Sorin</firstName>
+                <id>1</id>
+                <lastName>RadScheduler</lastName>
+                <phone>+373794*****</phone>
+            </client>
+            <id>1</id>
+            <name>Jake</name>
+        </pet>
+        <client>
+            <email>sorinradulescu@gmail.com</email>
+            <firstName>Sorin</firstName>
+            <id>1</id>
+            <lastName>RadScheduler</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <vetService>
+            <id>8</id>
+            <name>Medicine 1</name>
+            <price>5.0</price>
+        </vetService>
+    </registers>
+    <registers id="8">
+        <date>07-07-2023 11:17:26</date>
+        <doctor>
+            <email>sorinapostica@gmail.com</email>
+            <firstName>Sorina</firstName>
+            <id>1</id>
+            <lastName>Post ica</lastName>
+            <phone>+373794*****</phone>
+        </doctor>
+        <pet>
+            <animalType>Parrot</animalType>
+            <client>
+                <email>apalachicola@gmail.com</email>
+                <firstName>Constanta</firstName>
+                <id>2</id>
+                <lastName>Apalachicola</lastName>
+                <phone>+373794*****</phone>
+            </client>
+            <id>3</id>
+            <name>Sky</name>
+        </pet>
+        <client>
+            <email>apalachicola@gmail.com</email>
+            <firstName>Constanta</firstName>
+            <id>2</id>
+            <lastName>Apalachicola</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <vetService>
+            <id>6</id>
+            <name>Medicine 2</name>
+            <price>10.0</price>
+        </vetService>
+    </registers>
+    <registers id="9">
+        <date>07-07-2023 11:17:26</date>
+        <doctor>
+            <email>sorinapostica@gmail.com</email>
+            <firstName>Sorina</firstName>
+            <id>1</id>
+            <lastName>Post ica</lastName>
+            <phone>+373794*****</phone>
+        </doctor>
+        <pet>
+            <animalType>Tiger</animalType>
+            <client>
+                <email>apalachicola@gmail.com</email>
+                <firstName>Constanta</firstName>
+                <id>2</id>
+                <lastName>Apalachicola</lastName>
+                <phone>+373794*****</phone>
+            </client>
+            <id>4</id>
+            <name>Kitty</name>
+        </pet>
+        <client>
+            <email>apalachicola@gmail.com</email>
+            <firstName>Constanta</firstName>
+            <id>2</id>
+            <lastName>Apalachicola</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <vetService>
+            <id>7</id>
+            <name>Medicine 3</name>
+            <price>15.0</price>
+        </vetService>
+    </registers>
+    <registers id="10">
+        <date>07-07-2023 11:17:26</date>
+        <doctor>
+            <email>sorinapostica@gmail.com</email>
+            <firstName>Sorina</firstName>
+            <id>1</id>
+            <lastName>Post ica</lastName>
+            <phone>+373794*****</phone>
+        </doctor>
+        <pet>
+            <animalType>Cat</animalType>
+            <client>
+                <email>sorinradulescu@gmail.com</email>
+                <firstName>Sorin</firstName>
+                <id>1</id>
+                <lastName>RadScheduler</lastName>
+                <phone>+373794*****</phone>
+            </client>
+            <id>2</id>
+            <name>Alta</name>
+        </pet>
+        <client>
+            <email>sorinradulescu@gmail.com</email>
+            <firstName>Sorin</firstName>
+            <id>1</id>
+            <lastName>RadScheduler</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <vetService>
+            <id>7</id>
+            <name>Medicine 3</name>
+            <price>15.0</price>
+        </vetService>
+    </registers>
+</registers>

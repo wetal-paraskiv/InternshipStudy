@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="liquibaseDirectory" value="db/changelog/2022/07" />
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="isSnapshotDb" value="false" />
+    <option name="snapshotDbValue" value="96542475-bcf3-4a38-8a04-2b2f18669be7" />
+    <option name="snapshotModelValue" value="Default" />
+  </component>
+</project>

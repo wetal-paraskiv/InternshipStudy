@@ -1,0 +1,17 @@
+    generate init changeLogfile
+liquibase --defaultsFile="db\\liquibase.properties" --changeLogFile="db\\changelog.xml" generateChangeLog
+liquibase --defaultsFile="db\\liquibase.properties" --changelog-file="db\\changelog.xml" generate-changelog
+
+    update database with master.xml that includes files for updating
+liquibase --defaultsFile="db\\liquibase.properties" --changelog-file="db\\master.xml" update
+
+    update database from file some.xml
+liquibase --defaultsFile="db\\liquibase.properties" --changelog-file="db\\some.xml" update
+
+    Liquibase status command to see whether the connection is successful
+liquibase --defaultsFile="db\\liquibase.properties" --changelog-file="db\\init_changelog.xml" status
+
+liquibase --defaultsFile="db\\liquibase.properties" history
+
+
+

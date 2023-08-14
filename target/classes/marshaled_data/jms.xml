@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pet id="1">
+    <date>11-07-2022 17:21:47</date>
+    <doctor>
+        <email>anamusteata@gmail.com</email>
+        <firstName>Ana</firstName>
+        <id>2</id>
+        <lastName>Mutates</lastName>
+        <phone>+373794*****</phone>
+    </doctor>
+    <pet>
+        <animalType>Dog</animalType>
+        <client>
+            <email>sorinradulescu@gmail.com</email>
+            <firstName>Sorin</firstName>
+            <id>1</id>
+            <lastName>RadScheduler</lastName>
+            <phone>+373794*****</phone>
+        </client>
+        <id>1</id>
+        <name>Jake</name>
+    </pet>
+    <client>
+        <email>sorinradulescu@gmail.com</email>
+        <firstName>Sorin</firstName>
+        <id>1</id>
+        <lastName>RadScheduler</lastName>
+        <phone>+373794*****</phone>
+    </client>
+    <vetService>
+        <id>1</id>
+        <name>Consulting first time</name>
+        <price>0.0</price>
+    </vetService>
+</pet>

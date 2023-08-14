@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clients>
+    <clientList id="1">
+        <firstName>Sorin</firstName>
+        <lastName>RadScheduler</lastName>
+        <email>sorinradulescu@gmail.com</email>
+        <phone>+373794*****</phone>
+    </clientList>
+    <clientList id="2">
+        <firstName>Constanta</firstName>
+        <lastName>Apalachicola</lastName>
+        <email>apalachicola@gmail.com</email>
+        <phone>+373794*****</phone>
+    </clientList>
+    <clientList id="3">
+        <firstName>Beatrice</firstName>
+        <lastName>Chicanos</lastName>
+        <email>beatricechicaros@gmail.com</email>
+        <phone>+373794*****</phone>
+    </clientList>
+</clients>

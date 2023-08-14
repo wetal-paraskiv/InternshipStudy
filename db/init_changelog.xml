@@ -1,0 +1,90 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.13.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="vparasch (generated)" id="1657958198647-1">
+        <createTable tableName="CABINET_VETERINAR">
+            <column autoIncrement="true" defaultOnNull="false" generationType="ALWAYS" name="ID" type="NUMBER(19, 0)">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0042212"/>
+            </column>
+            <column name="ADDRESS" type="VARCHAR2(255 CHAR)"/>
+            <column name="EMAIL" type="VARCHAR2(255 CHAR)"/>
+            <column name="NAME" type="VARCHAR2(255 CHAR)"/>
+            <column name="PHONE" type="VARCHAR2(255 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-2">
+        <createTable tableName="CLIENTS">
+            <column autoIncrement="true" defaultOnNull="false" generationType="ALWAYS" name="ID" type="NUMBER(19, 0)">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0042214"/>
+            </column>
+            <column name="EMAIL" type="VARCHAR2(255 CHAR)"/>
+            <column name="FIRST_NAME" type="VARCHAR2(255 CHAR)"/>
+            <column name="LAST_NAME" type="VARCHAR2(255 CHAR)"/>
+            <column name="PHONE" type="VARCHAR2(255 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-3">
+        <createTable tableName="DOCTORS">
+            <column autoIncrement="true" defaultOnNull="false" generationType="ALWAYS" name="ID" type="NUMBER(19, 0)">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0042216"/>
+            </column>
+            <column name="EMAIL" type="VARCHAR2(255 CHAR)"/>
+            <column name="FIRST_NAME" type="VARCHAR2(255 CHAR)"/>
+            <column name="LAST_NAME" type="VARCHAR2(255 CHAR)"/>
+            <column name="PHONE" type="VARCHAR2(255 CHAR)"/>
+            <column name="CABINET" type="NUMBER(19, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-4">
+        <createTable tableName="PETS">
+            <column autoIncrement="true" defaultOnNull="false" generationType="ALWAYS" name="ID" type="NUMBER(19, 0)">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0042218"/>
+            </column>
+            <column name="ANIMAL_TYPE" type="VARCHAR2(255 CHAR)"/>
+            <column name="NAME" type="VARCHAR2(255 CHAR)"/>
+            <column name="FK_CLIENT" type="NUMBER(19, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-5">
+        <createTable tableName="VET_REGISTER">
+            <column autoIncrement="true" defaultOnNull="false" generationType="ALWAYS" name="ID" type="NUMBER(19, 0)">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0042220"/>
+            </column>
+            <column name="REGISTER_DATE" type="VARCHAR2(255 CHAR)"/>
+            <column name="FK_CLIENT" type="NUMBER(19, 0)"/>
+            <column name="FK_DOCTOR" type="NUMBER(19, 0)"/>
+            <column name="FK_PET" type="NUMBER(19, 0)"/>
+            <column name="FK_VET_SERVICE" type="NUMBER(19, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-6">
+        <createTable tableName="VET_SERVICE">
+            <column autoIncrement="true" defaultOnNull="false" generationType="ALWAYS" name="ID" type="NUMBER(19, 0)">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0042222"/>
+            </column>
+            <column name="NAME" type="VARCHAR2(255 CHAR)"/>
+            <column name="PRICE" type="FLOAT(22)"/>
+            <column name="CABINET" type="NUMBER(19, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-7">
+        <addForeignKeyConstraint baseColumnNames="FK_PET" baseTableName="VET_REGISTER" constraintName="FK2RUOPMRIA2P8JKAR9MBWTSL02" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="ID" referencedTableName="PETS" validate="true"/>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-8">
+        <addForeignKeyConstraint baseColumnNames="CABINET" baseTableName="VET_SERVICE" constraintName="FK9RW6MNB1CEQYIT4DP0E03HUH4" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="ID" referencedTableName="CABINET_VETERINAR" validate="true"/>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-9">
+        <addForeignKeyConstraint baseColumnNames="FK_VET_SERVICE" baseTableName="VET_REGISTER" constraintName="FKD320OC8WNC41RP90E0GJ0EWFN" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="ID" referencedTableName="VET_SERVICE" validate="true"/>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-10">
+        <addForeignKeyConstraint baseColumnNames="CABINET" baseTableName="DOCTORS" constraintName="FKH0F3YPVIG8C1P5K63GAQYETK6" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="ID" referencedTableName="CABINET_VETERINAR" validate="true"/>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-11">
+        <addForeignKeyConstraint baseColumnNames="FK_DOCTOR" baseTableName="VET_REGISTER" constraintName="FKI3F2HLNLC4D0FGE3EF8VOPD1C" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="ID" referencedTableName="DOCTORS" validate="true"/>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-12">
+        <addForeignKeyConstraint baseColumnNames="FK_CLIENT" baseTableName="PETS" constraintName="FKQ3E4DC0E0QRHOR7LVSEYEYASF" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="ID" referencedTableName="CLIENTS" validate="true"/>
+    </changeSet>
+    <changeSet author="vparasch (generated)" id="1657958198647-13">
+        <addForeignKeyConstraint baseColumnNames="FK_CLIENT" baseTableName="VET_REGISTER" constraintName="FKSWQRNE1E8UT68W801S4W7UI25" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="ID" referencedTableName="CLIENTS" validate="true"/>
+    </changeSet>
+</databaseChangeLog>
